@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: your-app-name
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: node src/server.js
